@@ -1,5 +1,6 @@
 body {
     font-family: 'Shadows Into Light', cursive, sans-serif, serif;
+    min-height: 100vh;
 }
 #game > button {
     display: block;
