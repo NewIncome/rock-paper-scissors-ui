@@ -1,0 +1,55 @@
+body {
+    font-family: 'Shadows Into Light', cursive, sans-serif, serif;
+}
+#game > button {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #3390ff;
+    color: #fff;
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 10px;
+}
+#game > div {
+    display: flex;
+    flex-direction: column;
+}
+#game > div button {
+    margin-bottom: 10px;
+}
+#game > div button:last-of-type {
+    margin-bottom: 0;
+}
+header, footer {
+    background-color: #222;
+    color: #fff;
+}
+header, footer, main {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #3390ff;
+}
+main > section:first-of-type {
+    border-bottom: 1px solid #efefef;
+}
+#game table tbody {
+    height: 80px;
+}
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+}
+#game td {
+    font-size: 2em;
+}
+#game > div button {
+    opacity: 0.5;
+}
