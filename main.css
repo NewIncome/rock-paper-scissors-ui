@@ -1,6 +1,7 @@
 body {
     font-family: 'Shadows Into Light', cursive, sans-serif, serif;
     min-height: 100vh;
+    position: relative;
 }
 #game > button {
     display: block;
@@ -37,6 +38,9 @@ header {
 }
 footer {
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 a {
     text-decoration: none;
