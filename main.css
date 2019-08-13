@@ -31,6 +31,12 @@ header, footer {
 header, footer, main {
     padding: 10px;
 }
+header {
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+}
 a {
     text-decoration: none;
     color: #3390ff;
@@ -40,6 +46,9 @@ main > section:first-of-type {
 }
 #game table tbody {
     height: 80px;
+}
+#game table td {
+    min-width: 100px;
 }
 table {
     width: 100%;
